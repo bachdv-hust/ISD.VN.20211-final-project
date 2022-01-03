@@ -1,14 +1,9 @@
-package isd.vn.ecobike.data.entity;
-
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
+package isd.vn.ecobike.data.model;
 
 import java.time.LocalDateTime;
+import isd.vn.ecobike.data.entity.BikeEntity;
 
-@Entity
-
-public class OrderEntity {
-    @PrimaryKey
+public class Order {
     public int id;
     public BikeEntity rentedBike;
     public LocalDateTime start;

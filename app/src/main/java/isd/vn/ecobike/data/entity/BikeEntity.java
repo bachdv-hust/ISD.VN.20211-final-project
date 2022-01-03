@@ -4,9 +4,10 @@ import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity
-public class BaseBikeEntity {
+public class BikeEntity {
     @PrimaryKey
     public int id;
+    public int type;
     public String image;
     public boolean isRenting;
     public int value;
