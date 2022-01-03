@@ -8,6 +8,7 @@ import android.view.View;
 import isd.vn.ecobike.R;
 import isd.vn.ecobike.databinding.ActivityMainBinding;
 import isd.vn.ecobike.presentation.base.BaseActivity;
+import isd.vn.ecobike.presentation.screen.Router;
 
 public class MainActivity extends BaseActivity {
 
@@ -25,6 +26,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void afterCreateView() {
-
+        Router.startScreen(MainActivity.this, Router.ScreenName.BARCODE_SCREEN,new Object());
     }
 }
