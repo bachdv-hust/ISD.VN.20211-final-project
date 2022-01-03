@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:fontFamily="@font/sf_pro_display_bold"
-                android:text="Rent Bike Screen"
+                android:text="Renting Bike Screen"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
         </RelativeLayout>
@@ -63,20 +63,43 @@
                 android:minHeight="100dp" />
 
             <TextView
-                android:layout_gravity="center_horizontal"
-                android:textSize="17sp"
-                style="@style/RegularText"
+                android:textSize="16sp"
+                android:drawablePadding="4dp"
+                style="@style/SemiBoldText"
+                android:text="Rental time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="You have to deposit an amount of:" />
+                app:drawableStartCompat="@drawable/ic_baseline_timer_24" />
 
             <TextView
                 android:layout_gravity="center_horizontal"
                 android:textSize="20sp"
+                android:textColor="#4CAF50"
+                android:drawablePadding="4dp"
+                style="@style/BoldText"
+                android:text="02:30:15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                app:drawableStartCompat="@drawable/ic_baseline_attach_money_24"
+                android:textSize="16sp"
+                android:drawablePadding="4dp"
                 style="@style/SemiBoldText"
-                android:text="200 000 VND"
+                android:text="Amount up to now"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textColor="#F44336"
+                android:drawablePadding="4dp"
+                style="@style/BoldText"
+                android:text="02:30:15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>
@@ -92,14 +115,7 @@
             style="@style/CancelButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel" />
-
-        <Button
-            style="@style/SubmitButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:text="Submit" />
+            android:text="Return Bike" />
 
     </LinearLayout>
 </LinearLayout>
