@@ -19,11 +19,7 @@ public class BarcodeActivity extends BaseActivity {
         context.startActivity(starter);
     }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_barcode);
-    }
+
     private ActivityBarcodeBinding mBinding ;
     @Override
     public View createViewBinding() {

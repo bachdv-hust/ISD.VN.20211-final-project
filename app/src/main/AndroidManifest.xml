@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EcoBike">
         <activity
+            android:name=".presentation.screen.payment.PaymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.screen.bike.BikeInfoActivity"
             android:exported="false" />
         <activity
