@@ -5,8 +5,10 @@
       <map>
         <entry key="app/src/main/res/drawable/bg_edt_barcode.xml" value="0.22604166666666667" />
         <entry key="app/src/main/res/layout/activity_barcode.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout/activity_bike_info.xml" value="0.20989583333333334" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.22327898550724637" />
         <entry key="app/src/main/res/layout/activity_rent_bike.xml" value="0.2708333333333333" />
+        <entry key="app/src/main/res/layout/activity_station.xml" value="0.20989583333333334" />
       </map>
     </option>
   </component>
