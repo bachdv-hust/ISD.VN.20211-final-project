@@ -22,6 +22,7 @@ public class Router {
                 break;
         }
     }
+
     public interface ScreenName{
         String BARCODE_SCREEN = "barcode";
         String BIKE_INFO_SCREEN = "bike_info";

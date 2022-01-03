@@ -13,6 +13,9 @@
             android:name=".presentation.screen.rentbike.RentingBikeActivity"
             android:exported="false" />
         <activity
+            android:name=".presentation.screen.payment.PaymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".presentation.screen.bike.BikeInfoActivity"
             android:exported="false" />
         <activity
