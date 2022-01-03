@@ -1,0 +1,2 @@
+com/lib/bachdv/BuildConfig.java
+ com.lib.bachdv.BuildConfig
