@@ -20,6 +20,9 @@ public class PaymentActivity extends BaseActivity {
 
     @Override
     public void afterCreateView() {
+        mBinding.ivBack.setOnClickListener(view->{
+            finish();
+        });
 
     }
 }
