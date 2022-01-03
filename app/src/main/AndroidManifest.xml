@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EcoBike">
         <activity
-            android:name=".presentation.screen.bike.BikeInfoActivity"
-            android:exported="false" />
-        <activity
             android:name=".presentation.screen.station.StationActivity"
             android:exported="false" />
         <activity

@@ -33,11 +33,8 @@ public class BarcodeActivity extends BaseActivity {
 
     @Override
     public void afterCreateView() {
-        mBinding.ivBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
+        mBinding.ivBack.setOnClickListener(view -> {
+            finish();
         });
 
     }
