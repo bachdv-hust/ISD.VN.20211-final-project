@@ -4,6 +4,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".EcoBikeApp"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -28,7 +29,7 @@
             android:name=".presentation.screen.rentbike.RentBikeActivity"
             android:exported="false" />
         <activity
-            android:name=".presentation.screen.main.MainActivity"
+            android:name=".presentation.screen.home.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

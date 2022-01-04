@@ -4,6 +4,8 @@ import android.content.Context;
 
 import isd.vn.ecobike.presentation.screen.barcode.BarcodeActivity;
 import isd.vn.ecobike.presentation.screen.bike.BikeInfoActivity;
+import isd.vn.ecobike.presentation.screen.rentbike.RentBikeActivity;
+import isd.vn.ecobike.presentation.screen.rentbike.RentBikeViewModel;
 import isd.vn.ecobike.presentation.screen.station.StationActivity;
 
 public class Router {
@@ -18,6 +20,9 @@ public class Router {
             case ScreenName.STATION_INFO_SCREEN:
                 StationActivity.startActivity(context);
                 break;
+            case ScreenName.RENT_BIKE_SCREEN:
+                RentBikeActivity.startActivity(context);
+                break;
             default:
                 break;
         }
@@ -27,6 +32,7 @@ public class Router {
         String BARCODE_SCREEN = "barcode";
         String BIKE_INFO_SCREEN = "bike_info";
         String STATION_INFO_SCREEN = "station_info";
+        String RENT_BIKE_SCREEN = "rent_bike_info";
     }
 }
 

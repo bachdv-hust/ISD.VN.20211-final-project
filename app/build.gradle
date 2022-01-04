@@ -49,6 +49,11 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
 
     /// Room
-    implementation "androidx.room:room-rxjava2:2.4.0"
+    def room_version = "2.4.0"
+
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    // optional - RxJava2 support for Room
+    implementation "androidx.room:room-rxjava2:$room_version"
 
 }

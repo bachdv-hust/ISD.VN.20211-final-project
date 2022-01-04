@@ -9,7 +9,6 @@ import android.view.View;
 
 import isd.vn.ecobike.R;
 import isd.vn.ecobike.databinding.ActivityBarcodeBinding;
-import isd.vn.ecobike.databinding.ActivityMainBinding;
 import isd.vn.ecobike.presentation.base.BaseActivity;
 
 public class BarcodeActivity extends BaseActivity {

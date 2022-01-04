@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".presentation.screen.main.MainActivity">
+    tools:context=".presentation.screen.home.HomeActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,6 +26,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/btnRentBike"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rent Bike" />

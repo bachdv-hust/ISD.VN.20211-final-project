@@ -1,4 +1,4 @@
-package isd.vn.ecobike.data.model;
+package isd.vn.ecobike.domain.entity;
 
 import java.time.LocalDateTime;
 import isd.vn.ecobike.data.entity.BikeEntity;
